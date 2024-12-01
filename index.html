@@ -8,8 +8,23 @@
   </head>
   <body>
     <h2>My To do list</h2>
-    <input type="text" placeholder="Enter your title" id="title" />
+    <input
+      type="text"
+      placeholder="Enter your title"
+      id="title"
+      class="input"
+    />
     <input type="text" placeholder="Enter your description" id="description" />
+    <h2>At this time</h2>
+    <span>From</span>
+    <input
+      type="number"
+      id="startTime"
+      class="input"
+      placeholder="Start Time"
+    />
+    <span>Until</span>
+    <input type="number" id="endTime" class="input" placeholder="End Time" />
     <button id="addBtn">Add</button>
     <button id="deleteBtn">Delete</button>
     <script src="script.js"></script>
